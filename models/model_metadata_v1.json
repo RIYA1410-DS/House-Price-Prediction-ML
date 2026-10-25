@@ -1,0 +1,28 @@
+{
+    "model_name": "Tuned Random Forest",
+    "version": "1.0",
+    "target": "Price",
+    "features": [
+        "Area",
+        "Bedrooms",
+        "Bathrooms",
+        "Age",
+        "Location",
+        "Property_Type"
+    ],
+    "training_rows": 240,
+    "test_rows": 60,
+    "selection_metric": "5-fold cross-validation MAE",
+    "selected_cv_mae": 1709274.3553428631,
+    "final_test_metrics": {
+        "MAE": 1472445.2901785711,
+        "RMSE": 1993538.1208776345,
+        "R2": 0.9720948203563134,
+        "MAPE_percent": 6.7898449047383
+    },
+    "best_random_forest_parameters": {
+        "regressor__max_depth": 10,
+        "regressor__min_samples_leaf": 1,
+        "regressor__n_estimators": 200
+    }
+}
