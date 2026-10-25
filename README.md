@@ -101,6 +101,10 @@ python -m streamlit run app.py
 ### 5. Run automated tests
 ```bash
 python -m pytest test_prediction.py -v
+
+## Application Screenshot
+
+![House Price Prediction App](screenshots/house-price-app.png)
 ```
 
 ## Limitations
